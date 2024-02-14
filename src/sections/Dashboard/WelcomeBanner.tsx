@@ -59,7 +59,7 @@ const Welcome = styled.div`
   }
 
   background: linear-gradient(-45deg, #004000, #306000, #507000, #708000, #909000, #b0a000, #d0b000, #f0c000, #ffD700);
-  background-size: 300% 300%;
+  background-size: 200% 200%;
   animation: welcome-fade-in .5s ease, backgroundGradient 30s ease infinite;
   border-radius: 10px;
   position: relative;
@@ -104,7 +104,7 @@ export function WelcomeBanner() {
       {/* Image tag with the external URL as the source */}
       <img src={bannerImageUrl} alt="Felt Casino Banner" style={{ width: '100%', height: 'auto' }} />
       <div>
-        <h1>gm🐓 Welcome to House Gamecock! </h1>
+        <h1>gm🐓 </h1>
         <p>
           Life. Is. Just. A. Game.
         </p>
@@ -117,7 +117,7 @@ export function WelcomeBanner() {
           📲 Follow us on X
         </button>
         <button onClick={() => window.open('https://discord.gg/Tr8sMUPSZ7', '_blank')}>
-          💬 Join our Discord!
+          💬 Join Discord!
         </button>
       </Buttons>
     </Welcome>
