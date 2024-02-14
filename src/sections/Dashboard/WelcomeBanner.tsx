@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-// Correctly updated import path to match the location of your image
-import bannerImage from './feltbanner.png';
 
 const Buttons = styled.div`
   overflow: hidden;
@@ -98,13 +96,18 @@ const Welcome = styled.div`
 `;
 
 export function WelcomeBanner() {
+  // URL for the new banner image
+  const bannerImageUrl = 'https://cdn.discordapp.com/attachments/1189740143561682965/1207385099767775332/Felt_Casino.png?ex=65df73ff&is=65ccfeff&hm=41b7ff4c5aa6101932de2b6e7c6be14ae6d79c1482ac6a60f0c52192e33794c7';
+
   return (
     <Welcome>
-      {/* Add the img tag with the updated path */}
-      <img src={welcomeImage} alt="Welcome Banner" style={{ maxWidth: '100%', borderRadius: '10px' }} />
+      {/* Image tag with the external URL as the source */}
+      <img src={bannerImageUrl} alt="Felt Casino Banner" style={{ width: '100%', height: 'auto' }} />
       <div>
         <h1>gm🐓 Welcome to House Gamecock! </h1>
-        <p>Life. Is. Just. A. Game.</p>
+        <p>
+          Life. Is. Just. A. Game.
+        </p>
       </div>
       <Buttons>
         <button onClick={() => window.open('https://jup.ag/swap/SOL-GMCOCK_8CSTYs264XFrGym2WLy6QGgq6isxU8G4Und9q1gVbbbB', '_blank')}>
