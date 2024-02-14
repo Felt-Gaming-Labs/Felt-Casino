@@ -1,5 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+// Correctly updated import path to match the location of your image
+import welcomeImage from '../sections/Dashboard/feltbanner.png';
 
 const Buttons = styled.div`
   overflow: hidden;
@@ -34,7 +36,7 @@ const Buttons = styled.div`
     color: black;
     cursor: pointer;
   }
-`
+`;
 
 const Welcome = styled.div`
   @keyframes welcome-fade-in {
@@ -82,7 +84,6 @@ const Welcome = styled.div`
     &:nth-child(2) {animation-delay: 1s;}
   }
 
-
   & > div {
     padding: 0px;
   }
@@ -94,16 +95,16 @@ const Welcome = styled.div`
       padding: 40px;
     }
   }
-`
+`;
 
 export function WelcomeBanner() {
   return (
     <Welcome>
+      {/* Add the img tag with the updated path */}
+      <img src={welcomeImage} alt="Welcome Banner" style={{ maxWidth: '100%', borderRadius: '10px' }} />
       <div>
-        <h1>gm🐓 Welcome to Felt Gaming Labs Casino! </h1>
-        <p>
-          Life. Is. Just. A. Game.
-        </p>
+        <h1>gm🐓 Welcome to House Gamecock! </h1>
+        <p>Life. Is. Just. A. Game.</p>
       </div>
       <Buttons>
         <button onClick={() => window.open('https://jup.ag/swap/SOL-GMCOCK_8CSTYs264XFrGym2WLy6QGgq6isxU8G4Und9q1gVbbbB', '_blank')}>
@@ -117,5 +118,5 @@ export function WelcomeBanner() {
         </button>
       </Buttons>
     </Welcome>
-  )
+  );
 }
