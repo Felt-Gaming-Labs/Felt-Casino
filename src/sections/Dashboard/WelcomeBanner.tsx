@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 // Correctly updated import path to match the location of your image
-import welcomeImage from '../sections/Dashboard/feltbanner.png';
+import bannerImage from './feltbanner.png';
 
 const Buttons = styled.div`
   overflow: hidden;
