@@ -21,8 +21,7 @@ export const TOKENS: TokenMeta[] = [
     image: "https://assets.coingecko.com/coins/images/34188/standard/jup.png?1704266489",
     decimals: 6,
     baseWager: 1 * 1e6,
-  }
-  {
+  
     mint: new PublicKey("8CSTYs264XFrGym2WLy6QGgq6isxU8G4Und9q1gVbbbB"),
     symbol: 'GMCOCK',
     name: '$GMCOCK',
