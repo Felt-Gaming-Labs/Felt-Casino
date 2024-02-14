@@ -58,7 +58,7 @@ const Welcome = styled.div`
     }
   }
 
-  background: linear-gradient(-45deg, #ffb07c, #ff3e88, #2969ff, #ef3cff, #ff3c87);
+  background: linear-gradient(-45deg, #b8d200, #c0d900, #c9e000, #d3e700, #dcef00, #e6f700, #f0ff00, #f9ff00, #ffff00);
   background-size: 300% 300%;
   animation: welcome-fade-in .5s ease, backgroundGradient 30s ease infinite;
   border-radius: 10px;
@@ -100,20 +100,20 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Gamba v2 👋</h1>
+        <h1>gm🐓 Welcome to Felt Gaming Labs Casino! </h1>
         <p>
-          A fair, simple and decentralized casino on Solana.
+          Life. Is. Just. A. Game.
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
-          🚀 Add Liqudity
+        <button onClick={() => window.open('https://jup.ag/swap/SOL-GMCOCK_8CSTYs264XFrGym2WLy6QGgq6isxU8G4Und9q1gVbbbB', '_blank')}>
+          🪙 Buy $GMCOCK
         </button>
-        <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
-          👨‍💻 Build your own
+        <button onClick={() => window.open('https://twitter.com/GMCOCK_COIN', '_blank')}>
+          📲 Follow us on X
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+        <button onClick={() => window.open('https://discord.gg/Tr8sMUPSZ7', '_blank')}>
+          💬 Join our Discord!
         </button>
       </Buttons>
     </Welcome>
