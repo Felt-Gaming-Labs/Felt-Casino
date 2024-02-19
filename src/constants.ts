@@ -21,12 +21,13 @@ export const TOKENS: TokenMeta[] = [
     image: "https://assets.coingecko.com/coins/images/34188/standard/jup.png?1704266489",
     decimals: 6,
     baseWager: 1 * 1e6,
-  
+  },
+  {
     mint: new PublicKey("8CSTYs264XFrGym2WLy6QGgq6isxU8G4Und9q1gVbbbB"),
     symbol: 'GMCOCK',
     name: '$GMCOCK',
     image: "https://cdn.discordapp.com/attachments/1026783859309809674/1188099299565908029/IMG_8491.png",
     decimals: 8,
-    baseWager: 1 * 1e6,
-  }
+    baseWager: 1,
+  },
 ]
