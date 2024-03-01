@@ -40,7 +40,7 @@ const Welcome = styled.div`
 `;
 
 export function WelcomeBanner() {
-  const bannerImageUrl = 'https://cdn.discordapp.com/attachments/1189740143561682965/1207385099767775332/Felt_Casino.png?ex=65df73ff&is=65ccfeff&hm=41b7ff4c5aa6101932de2b6e7c6be14ae6d79c1482ac6a60f0c52192e33794c7';
+  const bannerImageUrl = 'https://i.imgur.com/5eEB1H0.png';
 
   return (
     <Welcome>
